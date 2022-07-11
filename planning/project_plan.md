@@ -49,7 +49,16 @@ User Stories:
 
 ## Pages/Screens
 
-List all the pages and screens in the app. Include wireframes for at least 3 of them.
+- / (home page)
+- /login
+- /register
+- /search-results
+- /image/:imageId 
+- /feed
+- /profile
+- /upload
+
+![SF3 - Capstone Wireframe](https://www.figma.com/file/vaB5YDrFhAHKKJcsnYlLOn/SF3---Capstone-Wireframe?node-id=0%3A1)
 
 ## Data Model
 
