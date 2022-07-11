@@ -51,6 +51,8 @@ User Stories:
 
 List all the pages and screens in the app. Include wireframes for at least 3 of them.
 
+- Test
+
 ## Data Model
 
 Describe your app's data model using diagrams or tables
