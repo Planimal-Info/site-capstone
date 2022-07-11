@@ -18,8 +18,8 @@ Add a list of your groups's brainstormed features list
 - Users can upload pictures of animals and plants (New York).
 - Users can like photos of animals/plants.
 - Login/Register
-- Comments?
-- Dislike Ratio?
+- Comments
+- Dislike Ratio
 - Use names provided from users to grab photos from another API.
 - Search for animals and display information.
 
