@@ -51,7 +51,16 @@ User Stories:
 
 List all the pages and screens in the app. Include wireframes for at least 3 of them.
 
-- Test
+- / (home page)
+- /:search-term (input value of serch term)
+- /login
+- /register
+- /image/:imageId (with description of plant/animal and posts)
+- /upload
+- /feed
+- /profile
+
+[![SF3 Wireframe](https://github.com/Planimal-Info/site-capstone/blob/main/planning/sf3-wireframes.png)](https://www.figma.com/file/vaB5YDrFhAHKKJcsnYlLOn/SF3---Capstone-Wireframe?node-id=0%3A1)
 
 ## Data Model
 
