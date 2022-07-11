@@ -61,6 +61,7 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 - /profile
 
 [![SF3 Wireframe](https://github.com/Planimal-Info/site-capstone/blob/main/planning/sf3-wireframes.png)](https://www.figma.com/file/vaB5YDrFhAHKKJcsnYlLOn/SF3---Capstone-Wireframe?node-id=0%3A1)
+*vertical scrolling in Preview for Search Results, Feed and Profile
 
 ## Data Model
 
