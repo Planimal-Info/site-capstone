@@ -9,7 +9,7 @@ Pod Members: Amaar, Kevin, Valerie
 ## Description
 
 What is the main purpose of your project? What are the key features your site has to offer its users? How will your targeted audience use your website?
-- Some of the key features our site has to offer include searching for plants and animals native to new york. Users can log in and upload photos and plants and animals they see (Maybe). Users can also regsiter and will have access to a like button. The target audience for this website are New Yorkers who love nature. 
+- Some of the key features our site has to offer include searching for plants and animals native to new york. Users can log in and upload photos and plants and animals they see. Users can also regsiter and will have access to a like button. The target audience for this website are New Yorkers who love nature. 
 
 ## Expected Features List
 
@@ -18,10 +18,9 @@ Add a list of your groups's brainstormed features list
 - Users can upload pictures of animals and plants (New York).
 - Users can like photos of animals/plants.
 - Login/Register
-- Comments
-- Dislike Ratio
-- Use names provided from users to grab photos from another API.
-- Search for animals and display information.
+- Search for animals and display information about that animal/plant, Also show user posts related to that animal/plant.
+- User feed that consists of posts. Can filter posts based on likes. (most liked during the day/week/month).
+- User Profiles.
 
 
 ## Related Work
