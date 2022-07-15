@@ -12,8 +12,8 @@ Mentors Names: Andrew, Julia, Dennis
 
 Project Code Repository Links
 
-* [Frontend Repo Link]()
-* [Backend Repo Link]()
+* [Frontend Repo Link](https://github.com/Planimal-Info/Flora-Fauna/tree/main/Flora-Fauna-Backend)
+* [Backend Repo Link](https://github.com/Planimal-Info/Flora-Fauna/tree/main/Flora-Fauna-Frontend)
 
 ## Project Overview
 
