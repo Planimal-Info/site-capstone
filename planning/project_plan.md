@@ -5,7 +5,10 @@ Pod Members: Amaar, Kevin, Valerie
 ## Problem Statement and Description
 
 Insert the latest summary of your problem statement and app description.
-- We want people to be able to enjoy nature and going on an adventure while also getting to share it with there friends and family or to anyone that wants to see. 
+Problem Statement: 
+New York State lacks a easy to use plant and animal database that academics and hobbyists can readily access.
+
+We want students in high school and college, as well as educators to have an easy to use, searchable database of local plants and animals. By grabbing data from a public new york state database, parsing it and returning relevant information. We will also allow users to upload and share photos of either animals or plants that they find in New York.
 
 ## User Roles and Personas
 
@@ -18,7 +21,7 @@ User Roles:
 User Persona’s: 
 
 User: 
-- John Use is a 20 year old Botony Student at the University of Nowhere. He wants to study local flora for a class project. He uses a phone mostly, and wants to use the site to research local plants and animals. Might not know how to navigate through the website. Another pain point is not finding a animal or plant he is looking for in the database. 
+- John Use is a 20 year old Botony Student at the Cornell University. He wants to study local flora for a class project. He uses a phone mostly, and wants to use the site to research local plants and animals. Might not know how to navigate through the website. Another pain point is not finding a animal or plant he is looking for in the database. 
 
 - Jane Use is a 28 year old local plant and animal enthusiast. They like to go out into national parks and look for interesting animals and plants they find. They want to use the website to record and post pictures of animals and plants they find out on their journeys. Pain points include picture not loading when they upload one. 
 
