@@ -65,7 +65,7 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 
 ## Data Model
 
-Describe your app's data model using diagrams or tables
+Users:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
 | id | xxx | xxx |
@@ -75,6 +75,13 @@ Describe your app's data model using diagrams or tables
 | email | xxx | xxx |
 | password | xxx | xxx |
 | created_at | xxx | xxx |
+
+Likes:
+| column name	  | type  | description |
+| :------------ |:--------------- | :-----|
+| id | xxx | xxx |
+| user_id | xxx | xxx |
+| post_id | xxx | xxx |
 
 ## Endpoints
 
