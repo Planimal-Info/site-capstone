@@ -123,16 +123,18 @@ Authentication Endpoints:
 | :------------ |:--------- |:----- | :-----| :----|
 |Read | GET | auth/me | Gets User based on token in local storage | 8 |
 |Create | POST | auth/login | Login User | 8 |
-|Create | POST | auth/register | Register User| 9 |
-|Read | GET | search/:searchInput | Searches Database for Input | 7| 
+|Create | POST | auth/register | Register User| 1, 9 |
+|Read | GET | search/:searchInput | Searches Database for Input | 2, 7 | 
 |Create | POST | post/create | Creates a post from a user | 8, 10 |
+|Delete | DELETE | post/delete | Delete user post |5|
 |Read | GET | post/posts/:postId | Gets that post_id  | 11 | 
 |Read | GET| post/user/:userId | Get all the posts from that user |12 | 
 |Read | GET | post/likes/:postid | Get all the likes from a post | 13 |
 |Update | PUT | post/updateLikes/:postid | Update Likes for a post | 14 |
 |Read | GET | profile/:user_id | Get Profile information on a user | 15 |
 |Update | PUT | profile/:user_id | Update user information | 15 |
-|Delete | DELETE | profile/delete | Delete user profile |16|
+|Delete | DELETE | profile/delete | Delete user profile |6, 16|
+|Read | GET | admin/flaggedPosts |Get flagged posts|3|
 
 
 ***Don't forget to set up your Issues, Milestones, and Project Board!***
