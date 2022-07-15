@@ -68,9 +68,13 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 Describe your app's data model using diagrams or tables
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-| col 3 is      | some wordy text | xxx |
-| col 2 is      | centered        | xxx |
-| zebra stripes | are neat        | xxx |
+| id | xxx | xxx |
+| is_admin | xxx | xxx |
+| first_name | xxx | xxx |
+| last_name | xxx | xxx |
+| email | xxx | xxx |
+| password | xxx | xxx |
+| created_at | xxx | xxx |
 
 ## Endpoints
 
