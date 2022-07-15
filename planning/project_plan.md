@@ -122,10 +122,17 @@ Authentication Endpoints:
 | CRUD |	HTTP Verb |	Params | Description |	User stories |
 | :------------ |:--------- |:----- | :-----| :----|
 |Read | GET | auth/me | Gets User based on token in local storage | 8 |
-
-
-Get flagged posts:
-- admin/flaggedPosts | Method: Get
+|Create | POST | auth/login | Login User | 8 |
+|Create | POST | auth/register | Register User| 9 |
+|Read | GET | search/:searchInput | Searches Database for Input | 7| 
+|Create | POST | post/create | Creates a post from a user | 8, 10 |
+|Read | GET | post/posts/:postId | Gets that post_id  | 11 | 
+|Read | GET| post/user/:userId | Get all the posts from that user |12 | 
+|Read | GET | post/likes/:postid | Get all the likes from a post | 13 |
+|Update | PUT | post/updateLikes/:postid | Update Likes for a post | 14 |
+|Read | GET | profile/:user_id | Get Profile information on a user | 15 |
+|Update | PUT | profile/:user_id | Update user information | 15 |
+|Delete | DELETE | profile/delete | Delete user profile |16|
 
 
 ***Don't forget to set up your Issues, Milestones, and Project Board!***
