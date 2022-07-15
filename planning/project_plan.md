@@ -5,6 +5,7 @@ Pod Members: Amaar, Kevin, Valerie
 ## Problem Statement and Description
 
 Insert the latest summary of your problem statement and app description.
+- We want people to be able to enjoy nature and going on an adventure while also getting to share it with there friends and family or to anyone that wants to see. 
 
 ## User Roles and Personas
 
@@ -40,10 +41,17 @@ User Stories:
 - As a Administrator, I want help users access their accounts, so that people can use the website.
 - As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
 - As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
-- As a user, I want to edit my post, to fix a spelling error.
+- As a user, I want to search for animals/plants and see related posts.
 - As a user, I want to login and share photos I’ve taken to show my friends. 
-- As a user, I want to login and use the website, to research local animals and plants for my class.
+- As a user, I want to register and use the website, to research local animals and plants for my class.
 - As a user, I to be able to log out after posting the cool photo’s I’ve taken.
+- As a user, I want to get more info about a post, to learn more about the photo.
+- As a user, I want to see all the posts i’ve made, to show my family and friends. 
+- As a User, I want to see how many likes my posts got, to see how many people like it. 
+- As a User, I want to like this post, because I like the photo.
+- As a User, I want to update my profile information, because I changed my email.
+- As a user, I want to delete my account, because I've finished my research paper
+
 
 
 
@@ -52,13 +60,13 @@ User Stories:
 List all the pages and screens in the app. Include wireframes for at least 3 of them.
 
 - / (home page)
-- /:search-term (input value of serch term)
+- /search/:search-term (input value of serch term)
 - /login
 - /register
-- /image/:imageId (with description of plant/animal and posts)
 - /upload
 - /feed
 - /profile
+- /admin
 
 [![SF3 Wireframe](https://github.com/Planimal-Info/site-capstone/blob/main/planning/sf3-wireframes.png)](https://www.figma.com/file/vaB5YDrFhAHKKJcsnYlLOn/SF3---Capstone-Wireframe?node-id=0%3A1)
 *vertical scrolling in Preview for Search Results, Feed and Profile
@@ -83,20 +91,50 @@ Likes:
 | user_id | xxx | xxx |
 | post_id | xxx | xxx |
 
-User_posts:
-| column name	  | type  | description |
-| :------------ |:--------------- | :-----|
-| id | xxx | xxx |
-| image | xxx | xxx |
-| user_post_desc | xxx | xxx |
-| user_id | xxx | xxx |
-| created_at | xxx | xxx |
-| updated_at | xxx | xxx |
-| created_at | xxx | xxx |
-| user_post_title | xxx | xxx |
-
 ## Endpoints
 
 List the API endpoints you will need to implement.
+Endpoints: 
+
+Authentication Endpoints:
+
+Gets the current user based off of token in local storage.
+ - auth/me | Method: GET
+Post request to register user and add to database.
+ - auth/register | Method: POST
+Post request to login uesr and store token. 
+ - auth/login | Method: POST
+
+
+Search Endpoints:
+
+Searches both Animal/Plant databases and user post database and displays Animal/Plant info and related posts. 
+ - search/:input | Method: GET
+
+User-Post’s Endpoints
+
+Post request to create post
+ - post/create | Method: POST
+Get request that gets the post with that specific post id
+ - post/posts/:post_id | Method: GET
+Get request to get all the posts made by a user
+ - post/user/:user_id | Method: GET
+Gets the likes for a post
+ - post/likes/:post_id | Method: GET
+Updates the likes for a post 
+ - post/updateLikes/:post_id  | Method: POST | Input: Post_id, User_id, +1 or -1 to increment or decrement
+
+Profile Endpoint:
+
+Get request to get user information. 
+- profile/user_id  | Method: Get
+- Delete User Profile
+-profile/delete/  | Method: Delete
+
+Administrator Endpoints:
+
+Get flagged posts:
+- admin/flaggedPosts | Method: Get
+
 
 ***Don't forget to set up your Issues, Milestones, and Project Board!***
