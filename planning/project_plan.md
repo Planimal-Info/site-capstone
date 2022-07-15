@@ -76,49 +76,45 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 Users:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-| id | xxx | xxx |
-| is_admin | xxx | xxx |
-| first_name | xxx | xxx |
-| last_name | xxx | xxx |
-| email | xxx | xxx |
-| password | xxx | xxx |
-| created_at | xxx | xxx |
+| id | INTEGER | primary key |
+| is_admin | BOOLEAN  | check if user is admin |
+| first_name | TEXT  | user's firat name |
+| last_name | TEXT  | user's last name |
+| email | TEXT | user's email |
+| password | TEXT  | user's password |
+| created_at | DATE  | date of user's account creation |
 
 Likes:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-| id | xxx | xxx |
-| user_id | xxx | xxx |
-| post_id | xxx | xxx |
+| id | INTEGER | primary key |
+| user_id | xxx | foreign key to user table |
+| user_post_id | xxx | foreign key to user posts table |
 
-Users_Posts:
+Users Posts:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-| id | xxx | xxx |
+| id | INTEGER | primary key |
 | photo | TEXT | image url |
-| user_post_desc | xxx | xxx |
-| user_id | xxx | xxx |
-| likes | xxx | xxx |
-| created_at | xxx | xxx |
-| updated_at | xxx | xxx |
-| user_post_title | xxx | xxx |
-| image_title | xxx | xxx |
+| user_post_desc | TEXT | description of uploaded photo |
+| user_id | INTEGER | foreign key to user table |
+| likes | INTEGER | number of likes on post |
+| created_at | DATE | date of user post creation |
+| updated_at | DATE | date of user post update |
+| user_post_title | TEXT | title of post |
 
 Plant_And_Animals:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-|id | xxx | xxx |
-| common name | xxx | xxx |
-| scientific name | xxx | xxx |
-| last_seen | xxx | xxx |
-| conservation_rate | xxx | xxx |
+|id | INTEGER | primary key |
+| common name | TEXT | common english name of animal |
+| scientific name | TEXT | scientific name of animal |
+| last_seen | DATE | date animal was last spotted |
+| conservation_rate | TEXT | conservation classification |
 
 ## Endpoints
 
-List the API endpoints you will need to implement.
 Endpoints: 
-
-Authentication Endpoints:
 | CRUD |	HTTP Verb |	Params | Description |	User stories |
 | :------------ |:--------- |:----- | :-----| :----|
 |Read | GET | auth/me | Gets User based on token in local storage | 8 |
