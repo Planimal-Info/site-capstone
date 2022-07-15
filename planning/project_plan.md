@@ -83,6 +83,18 @@ Likes:
 | user_id | xxx | xxx |
 | post_id | xxx | xxx |
 
+User_posts:
+| column name	  | type  | description |
+| :------------ |:--------------- | :-----|
+| id | xxx | xxx |
+| image | xxx | xxx |
+| user_post_desc | xxx | xxx |
+| user_id | xxx | xxx |
+| created_at | xxx | xxx |
+| updated_at | xxx | xxx |
+| created_at | xxx | xxx |
+| user_post_title | xxx | xxx |
+
 ## Endpoints
 
 List the API endpoints you will need to implement.
