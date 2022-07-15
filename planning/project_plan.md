@@ -119,64 +119,10 @@ List the API endpoints you will need to implement.
 Endpoints: 
 
 Authentication Endpoints:
-| CRUD |	HTTP Verb |	Description |	User stories |
-| :------------ |:--------------- | :-----| :----|
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
+| CRUD |	HTTP Verb |	Params | Description |	User stories |
+| :------------ |:--------- |:----- | :-----| :----|
+|Read | GET | auth/me | Gets User based on token in local storage | 8 |
 
-Gets the current user based off of token in local storage.
- - auth/me | Method: GET
-Post request to register user and add to database.
- - auth/register | Method: POST
-Post request to login uesr and store token. 
- - auth/login | Method: POST
-
-
-Search Endpoints:
-| CRUD |	HTTP Verb |	Description |	User stories |
-| :------------ |:--------------- | :-----| :----|
-|id | xxx | xxx | xxx |
-
-Searches both Animal/Plant databases and user post database and displays Animal/Plant info and related posts. 
- - search/:input | Method: GET
-
-User-Post’s Endpoints
-| CRUD |	HTTP Verb |	Description |	User stories |
-| :------------ |:--------------- | :-----| :----|
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-
-Post request to create post
- - post/create | Method: POST
-Get request that gets the post with that specific post id
- - post/posts/:post_id | Method: GET
-Get request to get all the posts made by a user
- - post/user/:user_id | Method: GET
-Gets the likes for a post
- - post/likes/:post_id | Method: GET
-Updates the likes for a post 
- - post/updateLikes/:post_id  | Method: POST | Input: Post_id, User_id, +1 or -1 to increment or decrement
-
-Profile Endpoint:
-| CRUD |	HTTP Verb |	Description |	User stories |
-| :------------ |:--------------- | :-----| :----|
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
-
-Get request to get user information. 
-- profile/user_id  | Method: Get
-- Delete User Profile
--profile/delete/  | Method: Delete
-
-Administrator Endpoints:
-| CRUD |	HTTP Verb |	Description |	User stories |
-| :------------ |:--------------- | :-----| :----|
-|id | xxx | xxx | xxx |
-|id | xxx | xxx | xxx |
 
 Get flagged posts:
 - admin/flaggedPosts | Method: Get
