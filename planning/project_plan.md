@@ -119,7 +119,7 @@ List the API endpoints you will need to implement.
 Endpoints: 
 
 Authentication Endpoints:
-| CRUD |	HTTP | Verb	Description |	User stories |
+| CRUD |	HTTP Verb |	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
 |id | xxx | xxx | xxx |
@@ -134,7 +134,7 @@ Post request to login uesr and store token.
 
 
 Search Endpoints:
-| CRUD |	HTTP | Verb	Description |	User stories |
+| CRUD |	HTTP Verb |	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
 
@@ -142,7 +142,7 @@ Searches both Animal/Plant databases and user post database and displays Animal/
  - search/:input | Method: GET
 
 User-Post’s Endpoints
-| CRUD |	HTTP | Verb	Description |	User stories |
+| CRUD |	HTTP Verb |	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
 |id | xxx | xxx | xxx |
@@ -162,7 +162,7 @@ Updates the likes for a post
  - post/updateLikes/:post_id  | Method: POST | Input: Post_id, User_id, +1 or -1 to increment or decrement
 
 Profile Endpoint:
-| CRUD |	HTTP | Verb	Description |	User stories |
+| CRUD |	HTTP Verb |	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
 |id | xxx | xxx | xxx |
@@ -173,7 +173,7 @@ Get request to get user information.
 -profile/delete/  | Method: Delete
 
 Administrator Endpoints:
-| CRUD |	HTTP | Verb	Description |	User stories |
+| CRUD |	HTTP Verb |	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
 |id | xxx | xxx | xxx |
