@@ -94,7 +94,7 @@ Likes:
 Users_Posts:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
-| id  | xxx | xxx |
+| id | xxx | xxx |
 | photo | TEXT | image url |
 | user_post_desc | xxx | xxx |
 | user_id | xxx | xxx |
@@ -103,6 +103,15 @@ Users_Posts:
 | updated_at | xxx | xxx |
 | user_post_title | xxx | xxx |
 | image_title | xxx | xxx |
+
+Plant_And_Animals:
+| column name	  | type  | description |
+| :------------ |:--------------- | :-----|
+|id | xxx | xxx |
+| common name | xxx | xxx |
+| scientific name | xxx | xxx |
+| last_seen | xxx | xxx |
+| conservation_rate | xxx | xxx |
 
 ## Endpoints
 
