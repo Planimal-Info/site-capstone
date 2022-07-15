@@ -119,6 +119,9 @@ List the API endpoints you will need to implement.
 Endpoints: 
 
 Authentication Endpoints:
+| CRUD |	HTTP | Verb	Description |	User stories |
+| :------------ |:--------------- | :-----| :----|
+|id | xxx | xxx | xxx |
 
 Gets the current user based off of token in local storage.
  - auth/me | Method: GET
