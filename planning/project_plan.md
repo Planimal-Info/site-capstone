@@ -122,6 +122,8 @@ Authentication Endpoints:
 | CRUD |	HTTP | Verb	Description |	User stories |
 | :------------ |:--------------- | :-----| :----|
 |id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
 
 Gets the current user based off of token in local storage.
  - auth/me | Method: GET
@@ -132,11 +134,21 @@ Post request to login uesr and store token.
 
 
 Search Endpoints:
+| CRUD |	HTTP | Verb	Description |	User stories |
+| :------------ |:--------------- | :-----| :----|
+|id | xxx | xxx | xxx |
 
 Searches both Animal/Plant databases and user post database and displays Animal/Plant info and related posts. 
  - search/:input | Method: GET
 
 User-Post’s Endpoints
+| CRUD |	HTTP | Verb	Description |	User stories |
+| :------------ |:--------------- | :-----| :----|
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
 
 Post request to create post
  - post/create | Method: POST
@@ -150,6 +162,10 @@ Updates the likes for a post
  - post/updateLikes/:post_id  | Method: POST | Input: Post_id, User_id, +1 or -1 to increment or decrement
 
 Profile Endpoint:
+| CRUD |	HTTP | Verb	Description |	User stories |
+| :------------ |:--------------- | :-----| :----|
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
 
 Get request to get user information. 
 - profile/user_id  | Method: Get
@@ -157,6 +173,10 @@ Get request to get user information.
 -profile/delete/  | Method: Delete
 
 Administrator Endpoints:
+| CRUD |	HTTP | Verb	Description |	User stories |
+| :------------ |:--------------- | :-----| :----|
+|id | xxx | xxx | xxx |
+|id | xxx | xxx | xxx |
 
 Get flagged posts:
 - admin/flaggedPosts | Method: Get
