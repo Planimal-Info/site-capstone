@@ -66,6 +66,11 @@ List all the pages and screens in the app. Include wireframes for at least 3 of 
 ## Data Model
 
 Describe your app's data model using diagrams or tables
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 ## Endpoints
 
