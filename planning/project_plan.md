@@ -4,7 +4,6 @@ Pod Members: Amaar, Kevin, Valerie
 
 ## Problem Statement and Description
 
-Insert the latest summary of your problem statement and app description.
 Problem Statement: 
 New York State lacks a easy to use plant and animal database that academics and hobbyists can readily access.
 
