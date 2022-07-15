@@ -95,9 +95,10 @@ Users_Posts:
 | column name	  | type  | description |
 | :------------ |:--------------- | :-----|
 | id  | xxx | xxx |
+| photo | TEXT | image url |
 | user_post_desc | xxx | xxx |
 | user_id | xxx | xxx |
-| Likes | xxx | xxx |
+| likes | xxx | xxx |
 | created_at | xxx | xxx |
 | updated_at | xxx | xxx |
 | user_post_title | xxx | xxx |
