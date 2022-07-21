@@ -44,7 +44,7 @@ User Stories:
 - [ ] 5. As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
 - [ ] 6. As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
 - [x] 7. As a User, I want to search for animals/plants and see related posts.
-- [ ] 8. As a User, I want to login and share photos I’ve taken to show my friends. 
+- [x] 8. As a User, I want to login and share photos I’ve taken to show my friends. 
 - [x] 9. As a User, I want to register and use the website, to research local animals and plants for my class.
 - [x] 10. As a User, I to be able to log out after posting the cool photo’s I’ve taken.
 - [x] 11. As a User, I want to get more info about a post, to learn more about the photo.
