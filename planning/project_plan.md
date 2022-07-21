@@ -37,22 +37,22 @@ Viewer (Not Logged In)
 
 ## User Stories
 User Stories:
-1. As a Viewer, I want to create an account, so that I can post photos of animals I find. 
-2. As a Viewer, I want to learn more about the website, to help me with my interests.
-3. As a Administrator, I want to verify photos are accurate, so that people have correct information. 
-4. As a Administrator, I want help users access their accounts, so that people can use the website.
-5. As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
-6. As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
-7. As a User, I want to search for animals/plants and see related posts.
-8. As a User, I want to login and share photos I’ve taken to show my friends. 
-9. As a User, I want to register and use the website, to research local animals and plants for my class.
-10. As a User, I to be able to log out after posting the cool photo’s I’ve taken.
-11. As a User, I want to get more info about a post, to learn more about the photo.
-12. As a User, I want to see all the posts i’ve made, to show my family and friends. 
-13. As a User, I want to see how many likes my posts got, to see how many people like it. 
-14. As a User, I want to like this post, because I like the photo.
-15. As a User, I want to update my profile information, because I changed my email.
-16. As a user, I want to delete my account, because I've finished my research paper
+[x] 1. As a Viewer, I want to create an account, so that I can post photos of animals I find. 
+[x] 2. As a Viewer, I want to learn more about the website, to help me with my interests.
+[ ] 3. As a Administrator, I want to verify photos are accurate, so that people have correct information. 
+[ ] 4. As a Administrator, I want to help users access their accounts, so that people can use the website.
+[ ] 5. As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
+[ ] 6. As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
+[x] 7. As a User, I want to search for animals/plants and see related posts.
+[ ] 8. As a User, I want to login and share photos I’ve taken to show my friends. 
+[x] 9. As a User, I want to register and use the website, to research local animals and plants for my class.
+[x] 10. As a User, I to be able to log out after posting the cool photo’s I’ve taken.
+[x] 11. As a User, I want to get more info about a post, to learn more about the photo.
+[ ] 12. As a User, I want to see all the posts i’ve made, to show my family and friends. 
+[ ] 13. As a User, I want to see how many likes my posts got, to see how many people like it. 
+[ ] 14. As a User, I want to like this post, because I like the photo.
+[ ] 15. As a User, I want to update my profile information, because I changed my email.
+[ ] 16. As a user, I want to delete my account, because I've finished my research paper
 
 
 
