@@ -47,7 +47,7 @@ User Stories:
 - [x] 8. As a User, I want to register and use the website, to research local animals and plants for my class.
 - [x] 9. As a User, I to be able to log out after posting the cool photo’s I’ve taken.
 - [x] 10. As a User, I want to get more info about a post, to learn more about the photo.
-- [ ] 11. As a User, I want to see all the posts i’ve made, to show my family and friends. 
+- [x] 11. As a User, I want to see all the posts i’ve made, to show my family and friends. 
 - [ ] 12. As a User, I want to see how many likes my posts got, to see how many people like it. 
 - [ ] 13. As a User, I want to like this post, because I like the photo.
 - [ ] 14. As a User, I want to update my profile information, because I changed my email.
