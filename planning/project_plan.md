@@ -39,9 +39,9 @@ Viewer (Not Logged In)
 User Stories:
 - [x] 1. As a Viewer, I want to create an account, so that I can post photos of animals I find. 
 - [x] 2. As a Viewer, I want to learn more about the website, to help me with my interests.
-- [ ] 3. As a Administrator, I want to verify photos are accurate, so that people have correct information. 
-- [ ] 4. As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
-- [ ] 5. As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
+- [x] 3. As a Administrator, I want to verify photos are accurate, so that people have correct information. 
+- [x] 4. As a Administrator, I want to remove post that shares inaccurate information, so that people have access to accurate information. 
+- [x] 5. As a Administrator, I want to deactivate/ban users who use the website in a malicious way. 
 - [x] 6. As a User, I want to search for animals/plants and see related posts.
 - [x] 7. As a User, I want to login and share photos I’ve taken to show my friends. 
 - [x] 8. As a User, I want to register and use the website, to research local animals and plants for my class.
