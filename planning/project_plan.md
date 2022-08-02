@@ -48,8 +48,8 @@ User Stories:
 - [x] 9. As a User, I to be able to log out after posting the cool photo’s I’ve taken.
 - [x] 10. As a User, I want to get more info about a post, to learn more about the photo.
 - [x] 11. As a User, I want to see all the posts i’ve made, to show my family and friends. 
-- [ ] 12. As a User, I want to see how many likes my posts got, to see how many people like it. 
-- [ ] 13. As a User, I want to like this post, because I like the photo.
+- [x] 12. As a User, I want to see how many likes my posts got, to see how many people like it. 
+- [x] 13. As a User, I want to like this post, because I like the photo.
 - [ ] 14. As a User, I want to update my profile information, because I changed my email.
 - [ ] 15. As a user, I want to delete my account, because I've finished my research paper
 
